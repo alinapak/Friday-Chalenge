@@ -1,0 +1,186 @@
+.calendar {
+   background-color: white;
+}
+.calendar p {
+   color: #02577a;
+}
+#main-calendar {
+   display: flex;
+   justify-items: stretch;
+   gap: 3.5rem;
+   margin: 1.5rem 2rem 0rem 11rem;
+}
+#scss {
+   background-color: white;
+   border-radius: 25px;
+   padding: 1rem 3rem 1rem 3rem;
+   width: 100%;
+}
+#react {
+   background-color: white;
+   border-radius: 25px;
+   padding: 1rem 2rem 1rem 2rem;
+   width: 100%;
+}
+#php {
+   background-color: white;
+   border-radius: 25px;
+   padding: 1rem 2rem 1rem 2rem;
+   width: 100%;
+}
+#calend {
+   background-color: white;
+   border-radius: 25px;
+   padding: 2rem 2rem 1rem 2rem;
+   margin: 2rem;
+   width: 100%;
+}
+.name-button {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+#weeks {
+   display: inline-flex;
+   justify-content: space-evenly;
+   font-size: 24px;
+   width: 100%;
+}
+#weeks li {
+   width: 13%;
+   text-align: center;
+}
+.days li {
+   display: inline-flex;
+   justify-content: space-evenly;
+   width: 13%;
+   text-align: center;
+   font-weight: 700;
+   padding: 1rem 0 1rem 0;
+   font-size: 24px;
+   color: black;
+}
+#day14 {
+   background-color: #02577a;
+   color: white;
+   border-radius: 50%;
+}
+#month-first-line {
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   padding-bottom: 2rem;
+   gap: 1.5rem;
+}
+#month-first-line h2 {
+   font-weight: 700;
+   font-size: 24px;
+}
+#month-second-line {
+   border-bottom: solid #c4c4c4 1px;
+   color: #c4c4c4;
+   padding-bottom: 1rem;
+}
+#month-third-line {
+   padding-top: 0.5rem;
+}
+#skills {
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   width: 100%;
+   margin-top: 2rem;
+   margin-left: 5rem;
+}
+.skills-name {
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 32px;
+}
+#scss p,
+#react p,
+#php p {
+   color: #C4C4C4;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   padding: 0.5rem 0.5rem 2rem 0rem;
+}
+#scss-level {
+   background-color: #FC0000;
+   width: 40%;
+   height: 1.25rem;
+   border-radius: 25px;
+}
+#react-level {
+   background-color: #FCE300;
+   width: 40%;
+   height: 1.25rem;
+   border-radius: 25px;
+}
+#php-level {
+   background-color: #51FC00;
+   width: 40%;
+   height: 1.25rem;
+   border-radius: 25px;
+}
+#button a {
+   background-color: #02577a;
+   width: 100%;
+   padding: 0 1rem 0 1rem;
+   font-size: 48px;
+   margin-left: 16rem;
+   border-radius: 50%;
+   border-style: none;
+   margin-top: 1.5rem;
+   color: white;
+}
+#button a:hover {
+   color: #02577a;
+   background-color: #EBEEF5;
+   border: solid 2px #02577a;
+}
+@media screen and (max-width:80rem) {
+   #weeks {
+      font-size: 1rem;
+   }
+}
+@media screen and (max-width:68rem) {
+   #main-calendar {
+      flex-direction: column-reverse;
+      align-self: center;
+   }
+   #skills {
+      width: 80%;
+   }
+   #calend {
+      width: 90%;
+   }
+   #button a {
+      position: sticky;
+      left: 90%;
+   }
+}
+@media screen and (max-width:48rem) {
+   #skills {
+      margin-left: 2rem;
+   }
+   #calend {
+      width: 80%;
+   }
+}
+@media screen and (max-width:42rem) {
+   #main-calendar {
+      margin-left: 5rem;
+   }
+   #calend {
+      width: 98%;
+   }
+   #skills {
+      width: 98%;
+      margin-bottom: 1rem;
+   }
+   footer {
+      margin-top: 1rem;
+   }
+}
